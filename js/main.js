@@ -3,7 +3,7 @@ function getPlatform() {
 
   for (var i = 0; i < platform.length; i++) {
     if (navigator.platform.indexOf(platform[i]) > -1) {
-      return console.log(platform[i]);
+        return document.write(platform[i]);
     }
   }
 }
